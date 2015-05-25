@@ -2,9 +2,21 @@
 
 # table of contents
 
+- [conventions](#conventions)
 - [commands](#commands)
   - [arc](#arc)
 - more
+
+# conventions
+
+Sane conventions that you should use.
+
+1. Model names are capitalized and singular, e.g. Movie and CarPart.
+2. Properties are camelCase, e.g. `year` and `exhuastType`
+3. Examples of date stamps should be in past tense, e.g.`created` and `lastUpdated`.
+4. Foreign keys should be prefixed with the foreign entity's name, e.g. `userId` and `carId`.
+
+These will map to your database schemas as well.
 
 # commands
 
